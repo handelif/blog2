@@ -1,24 +1,18 @@
 html{
   height: 100%;
 }
-
 body{
   margin: 0;
   min-height: 100%;
-  background-color: black;
- // background-image: url("https://i.picsum.photos/id/786/200/200.jpg?hmac=3dBXR8Wgti8p-uOxlCjB5NiYqcQN2no2NkKDu-J92YA");
+  width: 100%;
 }
 .navigation{
 
-    left{
-      font-family: 'Oswald', sans-serif;
-      font-family: 'Poppins', sans-serif;
-      color: white;
-      a{
-        color: yellow;
-      }
+    .left{
+
+
     }
-    right{
+    .right{
 
     }
 }
@@ -26,8 +20,18 @@ body{
 
 }
 .top-banner{
-  //background-image: url("https://i.picsum.photos/id/786/200/200.jpg?hmac=3dBXR8Wgti8p-uOxlCjB5NiYqcQN2no2NkKDu-J92YA");
-    .banner-text{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-image:no-repeat;
+  width: 100%;
+  h1{
+    color: white;
+    .a{
+      color: yellow;
+      }
+    }
+  .banner-text{
 
     }
 }
