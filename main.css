@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+.top-banner {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-image: no-repeat;
+  width: 100%;
+}
+.top-banner h1 {
+  color: white;
+}
+.top-banner h1 .a {
+  color: yellow;
+}
+
+/*# sourceMappingURL=main.css.map */
