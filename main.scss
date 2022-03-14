@@ -8,31 +8,37 @@ body{
 }
 .navigation{
 
-    .left{
+  .left{
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      background-image:no-repeat;
 
+   }
+      .a{
+        color: yellow;
+       }
+  .right{
 
-    }
-    .right{
-
-    }
+  }
 }
 .navigation--inline{
 
 }
 .top-banner{
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  background-image:no-repeat;
+
   width: 100%;
   h1{
     color: white;
-    .a{
-      color: yellow;
-      }
+
     }
   .banner-text{
+    h3{
 
+    }
+    h1{
+
+    }
     }
 }
 content{

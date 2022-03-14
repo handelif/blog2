@@ -8,18 +8,20 @@ body {
   width: 100%;
 }
 
-.top-banner {
+.navigation .left {
   color: white;
   font-family: "Oswald", sans-serif;
   font-family: "Poppins", sans-serif;
   background-image: no-repeat;
+}
+.navigation .a {
+  color: yellow;
+}
+.top-banner {
   width: 100%;
 }
 .top-banner h1 {
   color: white;
-}
-.top-banner h1 .a {
-  color: yellow;
 }
 
 /*# sourceMappingURL=main.css.map */
