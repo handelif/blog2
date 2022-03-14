@@ -1,3 +1,41 @@
 html{
   height: 100%;
 }
+
+body{
+  margin: 0;
+  min-height: 100%;
+  background-color: black;
+ // background-image: url("https://i.picsum.photos/id/786/200/200.jpg?hmac=3dBXR8Wgti8p-uOxlCjB5NiYqcQN2no2NkKDu-J92YA");
+}
+.navigation{
+
+    left{
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      a{
+        color: yellow;
+      }
+    }
+    right{
+
+    }
+}
+.navigation--inline{
+
+}
+.top-banner{
+  //background-image: url("https://i.picsum.photos/id/786/200/200.jpg?hmac=3dBXR8Wgti8p-uOxlCjB5NiYqcQN2no2NkKDu-J92YA");
+    .banner-text{
+
+    }
+}
+content{
+  left{
+
+  }
+  right{
+
+  }
+}
