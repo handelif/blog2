@@ -4,11 +4,14 @@ html {
 body {
   background: #f4f6f3;
   font-family: "Oswald", sans-serif;
-  font-family: "Poppins", sans-serif;
   line-height: 1.4;
 }
 .topnav {
-  a {
+  img{
+    width: 100%;
+  }
+  .right{
+    a {
     float: right;
     color: gray;
     padding: 14px 16px;
@@ -16,6 +19,14 @@ body {
     font-size: 10px;
     &:hover {
       color: plum;
+    }
+   }
+  }
+  .banner{
+    font-family: "Poppins", sans-serif;
+    float: left;
+    fon{
+      color: orange;
     }
   }
 }
@@ -29,13 +40,16 @@ body {
     padding-left: 50px;
     padding-bottom: 20px;
     position: center;
-    .img{
-      width: 100%;
+    a{
+      float: right;
+      color: black;
+      font-family: "Oswald", sans-serif;
+      font-size: 60px;
     }
-  }
-  .right {
-    width: calc((100% - 50px) / 3);
-    float: right;
-    margin-right: 0px;
+    img{
+       width: 100%;
+      }
   }
 }
+
+

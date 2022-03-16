@@ -5,19 +5,28 @@ html {
 body {
   background: #f4f6f3;
   font-family: "Oswald", sans-serif;
-  font-family: "Poppins", sans-serif;
   line-height: 1.4;
 }
 
-.topnav a {
+.topnav img {
+  width: 100%;
+}
+.topnav .right a {
   float: right;
   color: gray;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 10px;
 }
-.topnav a:hover {
+.topnav .right a:hover {
   color: plum;
+}
+.topnav .banner {
+  font-family: "Poppins", sans-serif;
+  float: left;
+}
+.topnav .banner fon {
+  color: orange;
 }
 
 .content {
@@ -32,13 +41,14 @@ body {
   padding-bottom: 20px;
   position: center;
 }
-.content .left .img {
-  width: 100%;
-}
-.content .right {
-  width: calc((100% - 50px) / 3);
+.content .left a {
   float: right;
-  margin-right: 0px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+.content .left img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
