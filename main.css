@@ -29,16 +29,11 @@ body {
   color: orange;
 }
 
-.content {
-  margin: 0 50px;
-  margin-top: 25px;
-}
 .content .left {
   padding-left: 50px;
   padding-bottom: 20px;
 }
 .content .left a {
-  float: right;
   color: black;
   font-family: "Oswald", sans-serif;
   font-size: 60px;
