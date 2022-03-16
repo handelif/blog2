@@ -3,25 +3,33 @@ html {
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
-  width: 100%;
+  background: #f4f6f3;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.4;
 }
 
-.navigation .left {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  font-family: "Poppins", sans-serif;
-  background-image: no-repeat;
+.content {
+  width: calc(100% - 100px);
+  margin: 0 50px;
+  margin-top: 25px;
+  float: left;
 }
-.navigation .a {
-  color: yellow;
+.content .left {
+  padding-left: 57px;
+  padding-bottom: 20px;
+  position: center;
 }
-.top-banner {
+.content .left img {
   width: 100%;
 }
-.top-banner h1 {
-  color: white;
+.content .right {
+  width: calc((100% - 40px) / 3);
+  float: right;
+  margin-right: 0px;
+}
+
+.top-banner .img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,51 +1,35 @@
-html{
+$font-family_1: 'Oswald', sans-serif;
+$font-family_2: 'Poppins', sans-serif;
+
+html {
   height: 100%;
 }
-body{
-  margin: 0;
-  min-height: 100%;
-  width: 100%;
+body {
+  background: #f4f6f3;
+  font-family: $font-family_1;
+  line-height: 1.4;
 }
-.navigation{
-
-  .left{
-      color: white;
-      font-family: 'Oswald', sans-serif;
-      font-family: 'Poppins', sans-serif;
-      background-image:no-repeat;
+.content {
+  width: calc(100% - 100px);
+  margin: 0 50px;
+  margin-top: 25px;
+  float: left;
+  .left { padding-left: 57px;
+    padding-bottom: 20px;
+    position: center;
+    img{ width: 100%;
+    }
+  }
+  .right {
+     width: calc((100% - 40px) / 3);
+     float: right;
+     margin-right: 0px;
 
    }
-      .a{
-        color: yellow;
-       }
-  .right{
 
-  }
-}
-.navigation--inline{
-
-}
-.top-banner{
-
-  width: 100%;
-  h1{
-    color: white;
-
-    }
-  .banner-text{
-    h3{
-
-    }
-    h1{
-
-    }
-    }
-}
-content{
-  left{
-
-  }
-  right{
-
+ }
+.top-banner {
+  .img {
+    width: 100%;
   }
 }
