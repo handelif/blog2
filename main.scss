@@ -31,15 +31,12 @@ body {
   }
 }
 .content {
-  width: calc(100% - 100px);
   margin: 0 50px;
   margin-top: 25px;
-  float: left;
+
   .left {
-    width: calc(2* (100% - 50px) / 3);
     padding-left: 50px;
     padding-bottom: 20px;
-    position: center;
     a{
       float: right;
       color: black;
@@ -47,7 +44,7 @@ body {
       font-size: 60px;
     }
     img{
-       width: 100%;
+       width: 50%;
       }
   }
 }

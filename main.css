@@ -30,16 +30,12 @@ body {
 }
 
 .content {
-  width: calc(100% - 100px);
   margin: 0 50px;
   margin-top: 25px;
-  float: left;
 }
 .content .left {
-  width: calc(2 * (100% - 50px) / 3);
   padding-left: 50px;
   padding-bottom: 20px;
-  position: center;
 }
 .content .left a {
   float: right;
@@ -48,7 +44,7 @@ body {
   font-size: 60px;
 }
 .content .left img {
-  width: 100%;
+  width: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */

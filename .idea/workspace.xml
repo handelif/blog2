@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d71b228-e20e-4d1c-b733-d88cadd78d24" name="Changes" comment="resimler">
+    <list default="true" id="9d71b228-e20e-4d1c-b733-d88cadd78d24" name="Changes" comment="alt kısım">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -46,7 +46,7 @@
       <updated>1647263740005</updated>
       <workItem from="1647263741116" duration="5122000" />
       <workItem from="1647412494408" duration="16312000" />
-      <workItem from="1647433282930" duration="6520000" />
+      <workItem from="1647433282930" duration="7165000" />
     </task>
     <task id="LOCAL-00001" summary="yeni scss sayfası">
       <created>1647264005142</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647436151170</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="alt kısım">
+      <created>1647440098014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647440098014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +118,7 @@
     <MESSAGE value="yeni scss sayfası" />
     <MESSAGE value="scss güncelleme" />
     <MESSAGE value="resimler" />
-    <option name="LAST_COMMIT_MESSAGE" value="resimler" />
+    <MESSAGE value="alt kısım" />
+    <option name="LAST_COMMIT_MESSAGE" value="alt kısım" />
   </component>
 </project>
