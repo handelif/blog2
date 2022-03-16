@@ -5,7 +5,19 @@ html {
 body {
   background: #f4f6f3;
   font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.4;
+}
+
+.topnav a {
+  float: right;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.topnav a:hover {
+  color: plum;
 }
 
 .content {
@@ -15,21 +27,18 @@ body {
   float: left;
 }
 .content .left {
-  padding-left: 57px;
+  width: calc(2 * (100% - 50px) / 3);
+  padding-left: 50px;
   padding-bottom: 20px;
   position: center;
 }
-.content .left img {
+.content .left .img {
   width: 100%;
 }
 .content .right {
-  width: calc((100% - 40px) / 3);
+  width: calc((100% - 50px) / 3);
   float: right;
   margin-right: 0px;
-}
-
-.top-banner .img {
-  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

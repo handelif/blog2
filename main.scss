@@ -1,35 +1,41 @@
-$font-family_1: 'Oswald', sans-serif;
-$font-family_2: 'Poppins', sans-serif;
-
 html {
   height: 100%;
 }
 body {
   background: #f4f6f3;
-  font-family: $font-family_1;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.4;
+}
+.topnav {
+  a {
+    float: right;
+    color: gray;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    &:hover {
+      color: plum;
+    }
+  }
 }
 .content {
   width: calc(100% - 100px);
   margin: 0 50px;
   margin-top: 25px;
   float: left;
-  .left { padding-left: 57px;
+  .left {
+    width: calc(2* (100% - 50px) / 3);
+    padding-left: 50px;
     padding-bottom: 20px;
     position: center;
-    img{ width: 100%;
+    .img{
+      width: 100%;
     }
   }
   .right {
-     width: calc((100% - 40px) / 3);
-     float: right;
-     margin-right: 0px;
-
-   }
-
- }
-.top-banner {
-  .img {
-    width: 100%;
+    width: calc((100% - 50px) / 3);
+    float: right;
+    margin-right: 0px;
   }
 }
