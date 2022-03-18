@@ -58,17 +58,41 @@ body {
 .content {
   padding-top: 44px;
   padding-left: 90px;
+  padding-right: 90px;
 }
 .content .left {
-  padding-bottom: 20px;
-}
-.content .left a {
-  color: black;
-  font-family: "Oswald", sans-serif;
-  font-size: 60px;
+  padding-bottom: 26px;
 }
 .content .left img {
   width: 50%;
+}
+.content .left a {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.alt-kisim {
+  width: 100%;
+  background-color: #032231;
+}
+.alt-kisim .content {
+  padding-left: 90px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.alt-kisim .content .content1 a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.alt-kisim .content .content1 a fon {
+  color: orange;
+}
+.alt-kisim .content .content1 a1 {
+  font-size: 10px;
+  color: white;
+  font-family: "Oswald", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
