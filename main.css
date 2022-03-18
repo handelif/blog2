@@ -5,32 +5,61 @@ html {
 body {
   background: #f4f6f3;
   font-family: "Oswald", sans-serif;
-  line-height: 1.4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.topnav img {
-  width: 100%;
+.topnav {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  background-size: cover;
+  background-image: url("https://hthayat.haberturk.com/im/2012/01/16/ver1542371079/1003232_620x360.jpg");
+  height: 800px;
+}
+.topnav .right {
+  color: white;
 }
 .topnav .right a {
   float: right;
-  color: gray;
-  padding: 14px 16px;
+  color: white;
+  padding: 27px 16px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 13px;
 }
 .topnav .right a:hover {
-  color: plum;
+  color: lightgrey;
 }
-.topnav .banner {
-  font-family: "Poppins", sans-serif;
+.topnav .right p {
   float: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
-.topnav .banner fon {
+.topnav .right p fon {
   color: orange;
 }
 
+.banner {
+  font-family: "Roboto", sans-serif;
+  padding-top: 150px;
+}
+.banner h1 {
+  color: white;
+  font-size: 20px;
+  position: center;
+}
+.banner a {
+  font-family: "Roboto", sans-serif;
+  font-size: 120px;
+}
+
+.content {
+  padding-top: 44px;
+  padding-left: 90px;
+}
 .content .left {
-  padding-left: 50px;
   padding-bottom: 20px;
 }
 .content .left a {
