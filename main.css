@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #f4f6f3;
+  background: white;
   font-family: "Oswald", sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -52,7 +52,7 @@ body {
 }
 .banner a {
   font-family: "Roboto", sans-serif;
-  font-size: 120px;
+  font-size: 125px;
 }
 
 .content {
@@ -70,7 +70,7 @@ body {
   padding-left: 30px;
 }
 .content .left a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
   font-size: 30px;
 }
@@ -101,53 +101,32 @@ body {
   color: white;
   font-family: "Oswald", sans-serif;
 }
-.alt-kisim .content .row .col-2 {
+.alt-kisim .content .row .latest-News {
   padding-left: 300px;
 }
-.alt-kisim .content .row .col-2 a {
+.alt-kisim .content .row .latest-News a {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
-.alt-kisim .content .row .col-2 a fon {
-  color: orange;
+.alt-kisim .content .row .latest-News img {
+  width: 10%;
 }
-.alt-kisim .content .row .col-2 a1 {
-  font-size: 10px;
-  color: white;
-  font-family: "Oswald", sans-serif;
+.alt-kisim .content .row .Information {
+  padding-left: 550px;
 }
-.alt-kisim .content .row .col-3 {
-  padding-left: 600px;
-}
-.alt-kisim .content .row .col-3 a {
+.alt-kisim .content .row .Information a {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
-.alt-kisim .content .row .col-3 a fon {
-  color: orange;
+.alt-kisim .content .row .Have-a-Questions {
+  padding-left: 850px;
 }
-.alt-kisim .content .row .col-3 a1 {
-  font-size: 10px;
-  color: white;
-  font-family: "Oswald", sans-serif;
-}
-.alt-kisim .content .row .col-4 {
-  padding-left: 900px;
-}
-.alt-kisim .content .row .col-4 a {
+.alt-kisim .content .row .Have-a-Questions a {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
-}
-.alt-kisim .content .row .col-4 a fon {
-  color: orange;
-}
-.alt-kisim .content .row .col-4 a1 {
-  font-size: 10px;
-  color: white;
-  font-family: "Oswald", sans-serif;
+  font-size: 15px;
 }
 
 #Gri-Sayfa-Num {
@@ -159,32 +138,15 @@ body {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  float: none;
 }
 #Gri-Sayfa-Num ul li {
   float: left;
 }
 #Gri-Sayfa-Num ul li a {
-  text-decoration: none;
-  color: #000;
-  font-family: Tahoma;
-  font-size: 17px;
-  display: block;
-  padding-right: 8px;
-  padding-left: 8px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
-  background-color: #E6E6E6;
-  border: thin solid #999;
-  border-radius: 8px;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-}
-#Gri-Sayfa-Num ul li a a:hover {
-  background-color: #CCC;
-  text-decoration: underline;
+  padding: 0px 15px 15px 15px;
+  background-color: lightgrey;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
 }
 
 /*# sourceMappingURL=main.css.map */
