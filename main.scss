@@ -59,12 +59,21 @@ body {
   .left {
     padding-bottom: 26px;
        img{
-         width: 50%;
+         width: 100%;
         }
+    .test{
+        padding-left: 30px;
+    }
     a{
+
       font-family: 'Roboto', sans-serif;
       color: black;
       font-size: 30px;
+    }
+    a_1{
+      padding-left: 30px;
+      color: lightgrey;
+      font-size: 10px;
     }
   }
 }
@@ -72,25 +81,111 @@ body {
   width: 100%;
   background-color: #032231;
   .content{
-    padding-left: 90px;
     padding-bottom: 40px;
     padding-top: 40px;
-    .content1{
-       a {
-         color: white;
-         font-family: "Poppins", sans-serif;
-         font-size: 20px;
-         fon {
+    .row{
+      .col-1{
+        a {
+          color: white;
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          fon {
             color: orange;
-            }
-         }
-      a1{
-        font-size: 10px;
-        color: white;
-        font-family: "Oswald", sans-serif;
+          }
+        }
+        a1{
+          font-size: 10px;
+          color: white;
+          font-family: "Oswald", sans-serif;
+        }
       }
-    }
+      .col-2{
+        padding-left: 300px;
+        a {
+          color: white;
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          fon {
+            color: orange;
+          }
+        }
+        a1{
+          font-size: 10px;
+          color: white;
+          font-family: "Oswald", sans-serif;
+        }
+      }
+      .col-3{
+        padding-left: 600px;
+         a {
+           color: white;
+           font-family: "Poppins", sans-serif;
+           font-size: 20px;
+           fon {
+             color: orange;
+           }
+         }
+         a1{
+           font-size: 10px;
+           color: white;
+           font-family: "Oswald", sans-serif;
+         }
+       }
+      .col-4{
+        padding-left: 900px;
+        a {
+          color: white;
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          fon {
+            color: orange;
+          }
+        }
+        a1{
+          font-size: 10px;
+          color: white;
+          font-family: "Oswald", sans-serif;
+        }
+       }
+     }
   }
 }
+#Gri-Sayfa-Num {
+  padding-bottom: 115px;
+  padding-left: 500px;
+  padding-top: 50px;
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    li {
+       float: left;
+       a {
+        text-decoration: none;
+        color: #000;
+        font-family: Tahoma;
+        font-size: 17px;
+        display: block;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        background-color: #E6E6E6;
+        border: thin solid #999;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        a:hover {
+          background-color: #CCC;
+          text-decoration: underline;
+    }
+   }
+  }
+ }
+}
+
 
 
