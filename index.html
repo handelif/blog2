@@ -6,49 +6,76 @@
     <link rel="stylesheet" href="main.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@900&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
 </head>
 <body>
 
+
+
 <div class="topnav">
 
+    <div class="header">
+        <div class="logo">
+            <p>Read<span>it</span>.</p>
+        </div>
+        <div class="right-menu">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
     <div class="right">
-        <a href="#contact">Contact</a>
-        <a href="#team">Team</a>
-        <a href="#articles">Articles</a>
-        <a class="active" href="#home">Home</a>
-        <p>Read<fon>it</fon>.</p>
+
+
     </div>
 
     <div class="banner">
 
-        <h1>Hello! Welcome to</h1>
+        <h4>Hello! Welcome to</h4>
         <h1> <a>Readit blog</a> </h1>
-        <h1>Aenean nunc massa, commodo vel risus vitae, venenatis ultricies ligula.<br>
+        <p>Aenean nunc massa, commodo vel risus vitae, venenatis ultricies ligula.<br>
             Duis elementum ex libero, quis facilisis erat sollicitudin ut.<br>
             Duis rhoncus massa eu dignissim molestie.Sed non ante ut <br>
-            libero consequat consequat sit amet ac felis.</h1>
-        <h1 style="font-size: 30px;"> &#8595;</h1>
+            libero consequat consequat sit amet ac felis.</p>
+        <i class="fa fa-arrow-down-long"></i>
 
     </div>
 </div>
 
 <div class="content">
 
-    <div class="left" style="float:left; width: 60%; padding-top: 30px;">
-        <img src="https://i.picsum.photos/id/382/400/200.jpg?hmac=95nqwpn_pboqypdKfhTtgcF65DYQcdADyvNzegJkNak">
+    <div class="blog-list">
+
+        <!-- single blog item example START -->
+        <div class="single-blog">
+            <div class="blog-image">
+                <img src="https://i.picsum.photos/id/382/400/200.jpg?hmac=95nqwpn_pboqypdKfhTtgcF65DYQcdADyvNzegJkNak" />
+            </div>
+
+            <div class="blog-content">
+                <span class="category">ILLUSTRATION</span>
+                <a class="title" href="#">Build a website in minutes with Adobe Templates</a>
+                <span class="date">11/13/2019 <span>12 min read</span></span>
+            </div>
+        </div>
+        <!-- single blog item example END -->
+
+<!--        <div class="single-blog">-->
+<!--            -->
+<!--        </div>-->
+
     </div>
 
-    <div class="left" style="float: right; width: 40%;padding-top: 30px;">
-        <p><a_1>ILLUSTRATION</a_1> <br>
-        <div class="test" > <a>Build a website in <br> minutes with <br>Adobe <br>Templates</a> </div> <br>
-        <br><a_1>11/13/2019/12 min read</a_1></p>
-    </div>
     <div style="clear:both;"></div>
 
     <div class="left" style="float:left; width: 60%;">
@@ -144,53 +171,57 @@
 <div id="Gri-Sayfa-Num">
 <ul>
     <li style="text-align: center;">
-        <a>< </a></li>
-    <li><a>1</a></li>
-    <li><a>2</a></li>
-    <li><a>3</a></li>
-    <li><a>4</a></li>
-    <li><a>5</a></li>
-    <li><a>> </a></li>
+        <a href="#"><i class="fa fa-chevron-left"></i></a></li>
+    <li class="selected"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
 </ul>
 </div>
 
 <div class="alt-kisim">
 
-    <div class="content">
+   <div class="content">
         <div class="row">
             <div class="col-1">
-                <a>Read<fon>it</fon>.</a> <br>
-                <a1>Aenean elementum justo dolor,
-                    sit amet <br>dapibus mi hendrerit a.
-                    Nullam finibus consectetur consectetur. </a1>
+               <a>Read<fon>it</fon>.</a> <br>
+               <a1>Aenean elementum justo dolor,
+                  sit amet <br>dapibus mi hendrerit a.
+                  Nullam finibus consectetur consectetur. </a1>
             </div>
 
-            <div class="latest-News">
-                <a>latest News</a> <br> <br>
-                <img src="https://i.picsum.photos/id/3/200/200.jpg?hmac=N5yYUNYl5gOUcaMmTtnNNtx839TN2qaNM4SaXhQl65U" style="padding-bottom: 20px; float: left;"> <br>
-                <a style="padding-left: 10px;">Lorem ipsum dolor sit amet, <br>
-                    consectetur adipiscing elit. <br></a>
-                <img src="https://i.picsum.photos/id/188/200/200.jpg?hmac=TipFoTVq-8WOmIswCmTNEcphuYngcdkCBi4YR7Hv6Cw" style="padding-bottom: 20px; float: left;"> <br>
-                <a style="padding-left: 10px;">Lorem ipsum dolor sit amet, <br>
-                    consectetur adipiscing elit. <br></a>
-            </div>
+           <div class="latest-News">
+               <a>latest News</a> <br> <br>
+               <div class="resimKapsulu">
+                   <img src="https://i.picsum.photos/id/3/200/200.jpg?hmac=N5yYUNYl5gOUcaMmTtnNNtx839TN2qaNM4SaXhQl65U"/>
+               <a>Lorem ipsum dolor sit amet, <br>
+                  consectetur adipiscing elit. </a> <br>
+                   <a-1>Oct.16,2019  Admin  19</a-1> <br>
+                   <img src="https://i.picsum.photos/id/188/200/200.jpg?hmac=TipFoTVq-8WOmIswCmTNEcphuYngcdkCBi4YR7Hv6Cw"/>
+               <a>Lorem ipsum dolor sit amet, <br>
+                  consectetur adipiscing elit.</a> <br>
+                   <a-1>Oct.16,2019  Admin  19</a-1>
+               </div>
+          </div>
 
+          <div class="Information">
+               <a>Information</a>
+               <a>
+                   <p> > Home <br> <br>
+                       > About <br> <br>
+                       > Articles <br> <br>
+                       > Contact <br> <br>
+                   </p>
+               </a>
+          </div>
 
-            <div class="Information">
-                <a>Information</a>
-                <a>
-                    <p> > Home <br>
-                        > About <br>
-                        > Articles <br>
-                        > Contact <br>
-                    </p>
-                </a>
-            </div>
-
-            <div class="Have-a-Questions">
-                <a>Have a Questions?</a>
-            </div>
-        </div>
+          <div class="Have-a-Questions">
+               <a>Have a Questions?</a> <br>
+              <i class="fa fa-location-dot"></i>
+          </div>
+       </div>
     </div>
 
 </div>

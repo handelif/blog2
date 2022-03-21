@@ -1,152 +1,326 @@
+$header_height: 800px;
+$roboto_font: 'Roboto', sans-serif;
+$poppins_font: "Poppins", sans-serif;
+$oswald_font: "Oswald", sans-serif;
 html {
   height: 100%;
 }
+
 body {
   background: white;
-  font-family: "Oswald", sans-serif;
+  font-family: $oswald_font;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 .topnav {
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 8px;
   background-size: cover;
-  background-image: url("https://hthayat.haberturk.com/im/2012/01/16/ver1542371079/1003232_620x360.jpg");
-  height: 800px;
-  .right {
-      color: white;
-        a {
-          float: right;
-          color: white;
-          padding: 27px 16px;
-          text-decoration: none;
-          font-size: 13px;
-            &:hover {
-              color: lightgrey;
-              }
-          }
-        p {
-          float: left;
-          font-family: "Poppins", sans-serif;
-          font-size: 20px;
-           fon {
-              color: orange;
-              }
-          }
+  background-image: url("image/banner.jpg");
+  height: $header_height;
 
-     }
+  .header{
+    padding-top: 10px;
+    position: relative;
+    z-index: 10;
+    .logo {
+      float: left;
+      font-family: $poppins_font;
+      font-size: 20px;
+      color: white;
+
+      span {
+        color: #ffd369
+      }
+    }
+    .right-menu{
+      float: right;
+      padding-right: 40px;
+      ul{
+        li{
+          list-style: none;
+          display: inline-block;
+          padding-right: 10px;
+          padding-left: 10px;
+          font-family: $roboto_font;
+          a{
+            text-decoration: none;
+            font-size: 14px;
+            color: white;
+            font-weight: 500;
+            letter-spacing: -0.3px;
+          }
+        }
+      }
+    }
+  }
+
+  &:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: $header_height;
+    width: 100%;
+    opacity: .85;
+    background: rgb(245,101,196);
+    background: linear-gradient(43deg, rgba(245,101,196,1) 16%, rgba(247,128,169,1) 43%, rgba(250,181,110,1) 80%);
+  }
+
+  .right {
+    color: white;
+    position: relative;
+
+    a {
+      float: right;
+      color: white;
+      padding: 27px 16px;
+      text-decoration: none;
+      font-size: 13px;
+
+      &:hover {
+        color: lightgrey;
+      }
+    }
+
+
+
+  }
 }
-.banner{
-  font-family: 'Roboto', sans-serif;
-  padding-top: 150px;
+
+.banner {
+  font-family: $roboto_font;
+  padding-top: 300px;
+  position: relative;
+
   h1 {
     color: white;
-    font-size: 20px;
-    position: center;
+    font-weight: 900;
+    margin-top: 0;
   }
-    a{
-      font-family: 'Roboto', sans-serif;
-      font-size: 125px;
-    }
+
+  h4 {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  p {
+    color: white;
+    font-size: 15px;
+    position: center;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+
+  a {
+    font-family: $roboto_font;
+    font-size: 90px;
+  }
+  i{
+    color: white;
+    font-size: 16px;
+  }
 }
+
 .content {
   padding-top: 44px;
   padding-left: 90px;
   padding-right: 90px;
+
   .left {
     padding-bottom: 26px;
-       img{
-         width: 100%;
-        }
-    .test{
-        padding-left: 30px;
+
+    img {
+      width: 100%;
     }
-    a{
-      font-family: "Poppins", sans-serif;
+
+    .test {
+      padding-left: 30px;
+    }
+
+    a {
+      font-family: $poppins_font;
       color: black;
       font-size: 30px;
     }
-    a_1{
+
+    a_1 {
       padding-left: 30px;
       color: lightgrey;
       font-size: 10px;
     }
   }
 }
-.alt-kisim{
-  width: 100%;
+
+.alt-kisim {
+  padding-bottom: 400px;
   background-color: #032231;
-  .content{
-    padding-bottom: 40px;
-    padding-top: 40px;
-    .row{
-      .col-1{
+
+  .content {
+    padding-bottom: 0px;
+    padding-right: 0px;
+
+    .row {
+
+      .col-1 {
+        float: left;
+
         a {
           color: white;
-          font-family: "Poppins", sans-serif;
+          font-family: $poppins_font;
           font-size: 20px;
+
           fon {
             color: orange;
           }
         }
-        a1{
+
+        a1 {
           font-size: 10px;
           color: white;
-          font-family: "Oswald", sans-serif;
+          font-family: $oswald_font;
         }
       }
-      .latest-News{
-        padding-left: 300px;
+
+      .latest-News {
+        float: left;
+        width: 25%;
+
         a {
           color: white;
-          font-family: "Poppins", sans-serif;
+          font-family: $poppins_font;
           font-size: 15px;
         }
-        img{
-          width: 10%;
+
+        a-1 {
+          color: darkgrey;
+          font-size: 10px;
+          font-family: $roboto_font;
+        }
+
+        .resimKapsulu {
+          border-radius: 12px;
+
+          img {
+            height: 75px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+          }
         }
       }
-      .Information{
-        padding-left: 550px;
-         a {
-           color: white;
-           font-family: "Poppins", sans-serif;
-           font-size: 15px;
-         }
-       }
-      .Have-a-Questions{
-        padding-left: 850px;
+
+      .Information {
+        float: left;
+        width: 25%;
+
         a {
           color: white;
-          font-family: "Poppins", sans-serif;
+          font-family: $poppins_font;
           font-size: 15px;
         }
-       }
-     }
+      }
+
+      .Have-a-Questions {
+        a {
+          color: white;
+          font-family: $poppins_font;
+          font-size: 15px;
+        }
+      }
+    }
   }
 }
+
 #Gri-Sayfa-Num {
   padding-bottom: 115px;
   padding-left: 500px;
   padding-top: 50px;
+  font-family: $roboto_font;
+
   ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+
     li {
-       float: left;
-       a {
-         padding: 0px 15px 15px 15px;
-         background-color: lightgrey;
-         -moz-border-radius:75px;
-         -webkit-border-radius: 75px;
+      float: left;
+
+      a {
+        background-color: #fff;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+        line-height: 32px;
+        margin-right: 5px;
+        border: 1px solid #EEE;
+        font-size: 12px;
+        color: #999;
+        text-decoration: none;
+        transition: all .2s ease;
+        i{
+          font-size: 10px;
         }
       }
+
+      &.selected, &:hover {
+        a{
+          background: #ffd369;
+          color: #fff;
+        }
+      }
+
     }
+  }
 }
 
-
-
+.blog-list {
+  width: 100%;
+  display: block;
+  .single-blog{
+    width: 100%;
+    display: flex;
+    .blog-image{
+      width: 66.6%;
+      padding: 20px;
+      img{
+        width: 100%;
+      }
+    }
+    .blog-content{
+      width: 33.3%;
+      padding: 20px;
+      .category{
+        margin-bottom: 15px;
+      }
+      .date{
+        margin-top: 15px;
+      }
+      .category, .date{
+        font-family: $roboto_font;
+        font-weight: 300;
+        font-size: 11px;
+        color: #CCC;
+        width: 100%;
+        display: block;
+      }
+      .title{
+        color: black;
+        min-height: 75%;
+        font-size: 26px;
+        line-height: 32px;
+        font-family: $poppins_font;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        font-weight: 700;
+      }
+    }
+  }
+}
