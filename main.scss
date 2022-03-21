@@ -31,9 +31,10 @@ body {
       font-family: $poppins_font;
       font-size: 20px;
       color: white;
+      font-weight: 900;
 
       span {
-        color: #ffd369
+        color: #ffd369;
       }
     }
     .right-menu{
@@ -50,7 +51,7 @@ body {
             text-decoration: none;
             font-size: 14px;
             color: white;
-            font-weight: 500;
+            font-weight: 600;
             letter-spacing: -0.3px;
           }
         }
@@ -68,28 +69,8 @@ body {
     opacity: .85;
     background: rgb(245,101,196);
     background: linear-gradient(43deg, rgba(245,101,196,1) 16%, rgba(247,128,169,1) 43%, rgba(250,181,110,1) 80%);
-  }
-
-  .right {
-    color: white;
-    position: relative;
-
-    a {
-      float: right;
-      color: white;
-      padding: 27px 16px;
-      text-decoration: none;
-      font-size: 13px;
-
-      &:hover {
-        color: lightgrey;
-      }
     }
-
-
-
   }
-}
 
 .banner {
   font-family: $roboto_font;
@@ -98,7 +79,7 @@ body {
 
   h1 {
     color: white;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 0;
   }
 
@@ -117,8 +98,8 @@ body {
   }
 
   a {
-    font-family: $roboto_font;
-    font-size: 90px;
+    font-family: $poppins_font;
+    font-size: 100px;
   }
   i{
     color: white;
@@ -130,90 +111,105 @@ body {
   padding-top: 44px;
   padding-left: 90px;
   padding-right: 90px;
-
-  .left {
-    padding-bottom: 26px;
-
-    img {
-      width: 100%;
-    }
-
-    .test {
-      padding-left: 30px;
-    }
-
-    a {
-      font-family: $poppins_font;
-      color: black;
-      font-size: 30px;
-    }
-
-    a_1 {
-      padding-left: 30px;
-      color: lightgrey;
-      font-size: 10px;
-    }
-  }
 }
 
 .alt-kisim {
+  font-family: $roboto_font;
   padding-bottom: 400px;
-  background-color: #032231;
+  background-color: #222831;
+
+  .baslik{
+    color: white;
+    font-size: 15px;
+  }
+
+  .resimKapsulu {
+    border-radius: 12px;
+    padding-top: 22px;
+  }
+
+    img {
+      height: 50px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
 
   .content {
     padding-bottom: 0px;
     padding-right: 0px;
 
     .row {
+      position: relative;
+      width: 25%;
 
-      .col-1 {
+      .logo {
         float: left;
+        font-family: $poppins_font;
+        font-size: 20px;
+        color: white;
+        font-weight: 900;
 
         a {
           color: white;
           font-family: $poppins_font;
-          font-size: 20px;
+          font-size: 25px;
 
           fon {
             color: orange;
           }
         }
 
-        a1 {
-          font-size: 10px;
-          color: white;
-          font-family: $oswald_font;
-        }
+         p {
+            color: white;
+            font-size: 10px;
+            position: center;
+            font-weight: 300;
+            margin-bottom: 50px;
+           }
       }
+    }
 
       .latest-News {
+        display: flex;
         float: left;
         width: 25%;
 
-        a {
-          color: white;
-          font-family: $poppins_font;
-          font-size: 15px;
-        }
+        .blog-content {
+          width: 33.3%;
 
-        a-1 {
-          color: darkgrey;
-          font-size: 10px;
-          font-family: $roboto_font;
-        }
+          a {
+            color: white;
+            font-family: $poppins_font;
+            font-size: 15px;
+          }
 
-        .resimKapsulu {
-          border-radius: 12px;
-
-          img {
-            height: 75px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
+          .date {
+            font-family: $roboto_font;
+            font-weight: 300;
+            font-size: 11px;
+            color: #CCC;
+            display: block;
           }
         }
       }
 
-      .Information {
+      .ınformation{
+        color: white;
+        font-family: $poppins_font;
+        font-size: 15px;
+        float: left;
+        width: 25%;
+
+       li {
+          color: white;
+          list-style: none;
+        }
+      }
+
+      .Have-a-Questions {
+        color: white;
+        font-family: $poppins_font;
+        font-size: 15px;
         float: left;
         width: 25%;
 
@@ -223,18 +219,8 @@ body {
           font-size: 15px;
         }
       }
-
-      .Have-a-Questions {
-        a {
-          color: white;
-          font-family: $poppins_font;
-          font-size: 15px;
-        }
-      }
-    }
   }
-}
-
+ }
 #Gri-Sayfa-Num {
   padding-bottom: 115px;
   padding-left: 500px;
@@ -313,7 +299,7 @@ body {
       .title{
         color: black;
         min-height: 75%;
-        font-size: 26px;
+        font-size: 35px;
         line-height: 32px;
         font-family: $poppins_font;
         text-decoration: none;

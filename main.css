@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   height: 100%;
 }
@@ -28,6 +29,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: white;
+  font-weight: 900;
 }
 .topnav .header .logo span {
   color: #ffd369;
@@ -47,7 +49,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.3px;
 }
 .topnav:before {
@@ -61,20 +63,6 @@ body {
   background: #f565c4;
   background: linear-gradient(43deg, #f565c4 16%, #f780a9 43%, #fab56e 80%);
 }
-.topnav .right {
-  color: white;
-  position: relative;
-}
-.topnav .right a {
-  float: right;
-  color: white;
-  padding: 27px 16px;
-  text-decoration: none;
-  font-size: 13px;
-}
-.topnav .right a:hover {
-  color: lightgrey;
-}
 
 .banner {
   font-family: "Roboto", sans-serif;
@@ -83,7 +71,7 @@ body {
 }
 .banner h1 {
   color: white;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 0;
 }
 .banner h4 {
@@ -99,8 +87,8 @@ body {
   margin-bottom: 50px;
 }
 .banner a {
-  font-family: "Roboto", sans-serif;
-  font-size: 90px;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
 }
 .banner i {
   color: white;
@@ -112,82 +100,94 @@ body {
   padding-left: 90px;
   padding-right: 90px;
 }
-.content .left {
-  padding-bottom: 26px;
-}
-.content .left img {
-  width: 100%;
-}
-.content .left .test {
-  padding-left: 30px;
-}
-.content .left a {
-  font-family: "Poppins", sans-serif;
-  color: black;
-  font-size: 30px;
-}
-.content .left a_1 {
-  padding-left: 30px;
-  color: lightgrey;
-  font-size: 10px;
-}
 
 .alt-kisim {
+  font-family: "Roboto", sans-serif;
   padding-bottom: 400px;
-  background-color: #032231;
+  background-color: #222831;
+}
+.alt-kisim .baslik {
+  color: white;
+  font-size: 15px;
+}
+.alt-kisim .resimKapsulu {
+  border-radius: 12px;
+  padding-top: 22px;
+}
+.alt-kisim img {
+  height: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 .alt-kisim .content {
   padding-bottom: 0px;
   padding-right: 0px;
 }
-.alt-kisim .content .row .col-1 {
-  float: left;
+.alt-kisim .content .row {
+  position: relative;
+  width: 25%;
 }
-.alt-kisim .content .row .col-1 a {
-  color: white;
+.alt-kisim .content .row .logo {
+  float: left;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+  color: white;
+  font-weight: 900;
 }
-.alt-kisim .content .row .col-1 a fon {
+.alt-kisim .content .row .logo a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.alt-kisim .content .row .logo a fon {
   color: orange;
 }
-.alt-kisim .content .row .col-1 a1 {
-  font-size: 10px;
+.alt-kisim .content .row .logo p {
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-size: 10px;
+  position: center;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
-.alt-kisim .content .row .latest-News {
+.alt-kisim .content .latest-News {
+  display: flex;
   float: left;
   width: 25%;
 }
-.alt-kisim .content .row .latest-News a {
+.alt-kisim .content .latest-News .blog-content {
+  width: 33.3%;
+}
+.alt-kisim .content .latest-News .blog-content a {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
-.alt-kisim .content .row .latest-News a-1 {
-  color: darkgrey;
-  font-size: 10px;
+.alt-kisim .content .latest-News .blog-content .date {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  color: #CCC;
+  display: block;
 }
-.alt-kisim .content .row .latest-News .resimKapsulu {
-  border-radius: 12px;
-}
-.alt-kisim .content .row .latest-News .resimKapsulu img {
-  height: 75px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-}
-.alt-kisim .content .row .Information {
-  float: left;
-  width: 25%;
-}
-.alt-kisim .content .row .Information a {
+.alt-kisim .content .ınformation {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  float: left;
+  width: 25%;
 }
-.alt-kisim .content .row .Have-a-Questions a {
+.alt-kisim .content .ınformation li {
+  color: white;
+  list-style: none;
+}
+.alt-kisim .content .Have-a-Questions {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  float: left;
+  width: 25%;
+}
+.alt-kisim .content .Have-a-Questions a {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -267,7 +267,7 @@ body {
 .blog-list .single-blog .blog-content .title {
   color: black;
   min-height: 75%;
-  font-size: 26px;
+  font-size: 35px;
   line-height: 32px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;

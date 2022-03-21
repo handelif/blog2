@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d71b228-e20e-4d1c-b733-d88cadd78d24" name="Changes" comment="son güncelleme">
-      <change afterPath="$PROJECT_DIR$/image/banner.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -66,7 +65,7 @@
       <workItem from="1647585848689" duration="14752000" />
       <workItem from="1647606256931" duration="6898000" />
       <workItem from="1647673634399" duration="20063000" />
-      <workItem from="1647844497222" duration="11380000" />
+      <workItem from="1647844497222" duration="23241000" />
     </task>
     <task id="LOCAL-00001" summary="yeni scss sayfası">
       <created>1647264005142</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647700523446</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="son güncelleme">
+      <created>1647860291626</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647860291626</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
