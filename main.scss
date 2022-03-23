@@ -196,9 +196,13 @@ body {
         width: 25%;
 
        li {
+          font-family: $poppins_font;
           padding-bottom: 15px;
           list-style: none;
         }
+       .fa{
+          font-size: 13px;
+       }
       }
 
       .Have-a-Questions {

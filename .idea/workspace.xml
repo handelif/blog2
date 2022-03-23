@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d71b228-e20e-4d1c-b733-d88cadd78d24" name="Changes" comment="son güncelleme">
+    <list default="true" id="9d71b228-e20e-4d1c-b733-d88cadd78d24" name="Changes" comment="sayfanın son hali">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -66,7 +66,7 @@
       <workItem from="1647606256931" duration="6898000" />
       <workItem from="1647673634399" duration="20063000" />
       <workItem from="1647844497222" duration="23522000" />
-      <workItem from="1648016843410" duration="8187000" />
+      <workItem from="1648016843410" duration="9517000" />
     </task>
     <task id="LOCAL-00001" summary="yeni scss sayfası">
       <created>1647264005142</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647873022890</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="sayfanın son hali">
+      <created>1648025332606</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648025332606</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="sağ taraftaki yazılar" />
     <MESSAGE value="üst kısım" />
     <MESSAGE value="son güncelleme" />
-    <option name="LAST_COMMIT_MESSAGE" value="son güncelleme" />
+    <MESSAGE value="sayfanın son hali" />
+    <option name="LAST_COMMIT_MESSAGE" value="sayfanın son hali" />
   </component>
 </project>

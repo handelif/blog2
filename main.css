@@ -174,8 +174,12 @@ body {
   width: 25%;
 }
 .alt-kisim .content .ınformation li {
+  font-family: "Poppins", sans-serif;
   padding-bottom: 15px;
   list-style: none;
+}
+.alt-kisim .content .ınformation .fa {
+  font-size: 13px;
 }
 .alt-kisim .content .Have-a-Questions {
   color: white;
