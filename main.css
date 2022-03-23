@@ -103,16 +103,11 @@ body {
 
 .alt-kisim {
   font-family: "Roboto", sans-serif;
-  padding-bottom: 400px;
   background-color: #222831;
 }
 .alt-kisim .baslik {
   color: white;
   font-size: 15px;
-}
-.alt-kisim .resimKapsulu {
-  border-radius: 12px;
-  padding-top: 22px;
 }
 .alt-kisim img {
   height: 50px;
@@ -150,34 +145,36 @@ body {
   margin-bottom: 50px;
 }
 .alt-kisim .content .latest-News {
+  width: 25%;
   display: flex;
   float: left;
-  width: 25%;
+  color: white;
 }
 .alt-kisim .content .latest-News .blog-content {
-  width: 33.3%;
+  padding-left: 10px;
 }
 .alt-kisim .content .latest-News .blog-content a {
-  color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
 }
 .alt-kisim .content .latest-News .blog-content .date {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 8px;
   color: #CCC;
-  display: block;
+}
+.alt-kisim .content .latest-News .blog-image {
+  padding-top: 22px;
+  display: flex;
 }
 .alt-kisim .content .ınformation {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   float: left;
   width: 25%;
 }
 .alt-kisim .content .ınformation li {
-  color: white;
+  padding-bottom: 15px;
   list-style: none;
 }
 .alt-kisim .content .Have-a-Questions {
@@ -188,9 +185,10 @@ body {
   width: 25%;
 }
 .alt-kisim .content .Have-a-Questions a {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  width: 90%;
+}
+.alt-kisim .content .Have-a-Questions i {
+  width: 10%;
 }
 
 #Gri-Sayfa-Num {
@@ -274,6 +272,18 @@ body {
   display: block;
   width: 100%;
   font-weight: 700;
+}
+
+.sayfa-sonu {
+  padding-left: 300px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.sayfa-sonu p {
+  margin: 0;
+  padding-top: 300px;
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

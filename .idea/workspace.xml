@@ -65,7 +65,8 @@
       <workItem from="1647585848689" duration="14752000" />
       <workItem from="1647606256931" duration="6898000" />
       <workItem from="1647673634399" duration="20063000" />
-      <workItem from="1647844497222" duration="23241000" />
+      <workItem from="1647844497222" duration="23522000" />
+      <workItem from="1648016843410" duration="8187000" />
     </task>
     <task id="LOCAL-00001" summary="yeni scss sayfası">
       <created>1647264005142</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647860291626</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="son güncelleme">
+      <created>1647873022890</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647873022890</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

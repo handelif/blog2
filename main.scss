@@ -115,19 +115,12 @@ body {
 
 .alt-kisim {
   font-family: $roboto_font;
-  padding-bottom: 400px;
   background-color: #222831;
 
   .baslik{
     color: white;
     font-size: 15px;
   }
-
-  .resimKapsulu {
-    border-radius: 12px;
-    padding-top: 22px;
-  }
-
     img {
       height: 50px;
       -webkit-border-radius: 10px;
@@ -170,38 +163,40 @@ body {
     }
 
       .latest-News {
+        width: 25%;
         display: flex;
         float: left;
-        width: 25%;
+        color: white;
 
         .blog-content {
-          width: 33.3%;
+          padding-left: 10px;
 
           a {
-            color: white;
             font-family: $poppins_font;
-            font-size: 15px;
+            font-size: 13px;
           }
 
           .date {
             font-family: $roboto_font;
             font-weight: 300;
-            font-size: 11px;
+            font-size: 8px;
             color: #CCC;
-            display: block;
           }
+        }
+        .blog-image{
+          padding-top: 22px;
+          display: flex;
         }
       }
 
       .ınformation{
         color: white;
-        font-family: $poppins_font;
         font-size: 15px;
         float: left;
         width: 25%;
 
        li {
-          color: white;
+          padding-bottom: 15px;
           list-style: none;
         }
       }
@@ -214,9 +209,11 @@ body {
         width: 25%;
 
         a {
-          color: white;
-          font-family: $poppins_font;
-          font-size: 15px;
+          width: 90%;
+        }
+
+        i{
+          width: 10%;
         }
       }
   }
@@ -308,5 +305,16 @@ body {
         font-weight: 700;
       }
     }
+  }
+}
+.sayfa-sonu{
+  padding-left: 300px;
+  color: white;
+  font-family: $poppins_font;
+  font-size: 15px;
+  p{
+    margin: 0;
+    padding-top: 300px;
+    padding-bottom: 100px;
   }
 }
